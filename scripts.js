@@ -4,6 +4,7 @@
 //create two new functions and passing through to our function
 new Promise((resolve, reject) => {
     const randNum = Math.floor(Math.random() * 500);
+    //built in function, stop executing code once timer expires
     selfTimeout(() => {
         resolve(randNum)
     }, randNum)
@@ -13,3 +14,8 @@ new Promise((resolve, reject) => {
         title.textContent = number
         document.body.appendChild(title)
     })
+
+
+
+
+
