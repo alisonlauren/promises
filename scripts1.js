@@ -6,6 +6,7 @@ return new Promise((resolve, reject) => {
     }, randNum)
 })  
 }
+    
 
 const tortoise = timer();
 const hare = timer();
